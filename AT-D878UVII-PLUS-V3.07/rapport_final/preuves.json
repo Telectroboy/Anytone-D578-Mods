@@ -1,0 +1,267 @@
+{
+  "images": {
+    "D878": {
+      "bytes": 938744,
+      "sha256": "e154a1a4babf4562e7099ea9ef3007d3762d7cdb68f2c1b599451a67422b261a",
+      "base": "0x08004000",
+      "end": "0x080E92F8",
+      "initial_SP": "0x20016508",
+      "reset_vector": "0x08004CB1",
+      "valid_vector": true,
+      "max_blank_runs": [
+        {
+          "value": "0x00",
+          "offset": 936157,
+          "size": 131
+        },
+        {
+          "value": "0x00",
+          "offset": 722590,
+          "size": 78
+        }
+      ]
+    },
+    "D578_PRO_AT": {
+      "bytes": 1039472,
+      "sha256": "64583a33c80de7e0778f281f6946a7665e324a15659ada6f5baeceac64d23dbc",
+      "base": "0x08006000",
+      "end": "0x08103C70",
+      "initial_SP": "0x20017180",
+      "reset_vector": "0x08006335",
+      "valid_vector": true,
+      "max_blank_runs": [
+        {
+          "value": "0x00",
+          "offset": 1036805,
+          "size": 131
+        },
+        {
+          "value": "0x00",
+          "offset": 909624,
+          "size": 90
+        }
+      ]
+    },
+    "D578_PRO_GD": {
+      "bytes": 1020096,
+      "sha256": "1cdf1817f8abbbee72901357316953aea28763e192fe35b913c82520db31453b",
+      "base": "0x08006000",
+      "end": "0x080FF0C0",
+      "initial_SP": "0x200170E0",
+      "reset_vector": "0x08006D39",
+      "valid_vector": true,
+      "max_blank_runs": [
+        {
+          "value": "0x00",
+          "offset": 1017445,
+          "size": 131
+        },
+        {
+          "value": "0x00",
+          "offset": 762396,
+          "size": 90
+        }
+      ]
+    },
+    "D578_PLUS_AT": {
+      "bytes": 1040008,
+      "sha256": "146b7cdada21912295992b1b4596c2ebf3d87710d129e5124e9847f067327f34",
+      "base": "0x08006000",
+      "end": "0x08103E88",
+      "initial_SP": "0x20017180",
+      "reset_vector": "0x08006335",
+      "valid_vector": true,
+      "max_blank_runs": [
+        {
+          "value": "0x00",
+          "offset": 1037337,
+          "size": 131
+        },
+        {
+          "value": "0x00",
+          "offset": 910140,
+          "size": 90
+        }
+      ]
+    },
+    "D578_PLUS_GD": {
+      "bytes": 1020408,
+      "sha256": "8efad950169f332c8c60d340722a2ceee84ce41d7d8fabb0ebf19482973ceca2",
+      "base": "0x08006000",
+      "end": "0x080FF1F8",
+      "initial_SP": "0x200170E0",
+      "reset_vector": "0x08006D39",
+      "valid_vector": true,
+      "max_blank_runs": [
+        {
+          "value": "0x00",
+          "offset": 1017745,
+          "size": 131
+        },
+        {
+          "value": "0x00",
+          "offset": 762680,
+          "size": 90
+        }
+      ]
+    }
+  },
+  "strings": {
+    "D878": {
+      "Satellite": [
+        "0x080E3E94"
+      ],
+      "Predicting": [
+        "0x080E4160"
+      ],
+      "Satellite/PACsat": [
+        "0x080E5114"
+      ],
+      "TOT Predict": [
+        "0x080E51B8"
+      ]
+    },
+    "D578_PRO_AT": {
+      "Satellite": [],
+      "Predicting": [],
+      "Satellite/PACsat": [
+        "0x080FFA1C"
+      ],
+      "TOT Predict": [
+        "0x080FFAC0"
+      ]
+    },
+    "D578_PRO_GD": {
+      "Satellite": [],
+      "Predicting": [],
+      "Satellite/PACsat": [
+        "0x080FBBD4"
+      ],
+      "TOT Predict": [
+        "0x080FBC78"
+      ]
+    },
+    "D578_PLUS_AT": {
+      "Satellite": [],
+      "Predicting": [],
+      "Satellite/PACsat": [
+        "0x080FFC30"
+      ],
+      "TOT Predict": [
+        "0x080FFCD4"
+      ]
+    },
+    "D578_PLUS_GD": {
+      "Satellite": [],
+      "Predicting": [],
+      "Satellite/PACsat": [
+        "0x080FBD00"
+      ],
+      "TOT Predict": [
+        "0x080FBDA4"
+      ]
+    }
+  },
+  "constants": {
+    "DEG_TO_RAD_DOUBLE": {
+      "address": "0x08078024",
+      "value": 0.017453292519943295,
+      "match": true,
+      "bytes": "39 9d 52 a2 46 df 91 3f",
+      "cdd_offset": "0x074024",
+      "other_images_with_same_bytes": []
+    },
+    "PI_DOUBLE": {
+      "address": "0x0807802C",
+      "value": 3.141592653589793,
+      "match": true,
+      "bytes": "18 2d 44 54 fb 21 09 40",
+      "cdd_offset": "0x07402C",
+      "other_images_with_same_bytes": []
+    },
+    "EARTH_RADIUS_WGS84_FLOAT": {
+      "address": "0x08078044",
+      "value": 6378.13720703125,
+      "match": true,
+      "bytes": "19 51 c7 45",
+      "cdd_offset": "0x074044",
+      "other_images_with_same_bytes": []
+    },
+    "TWO_PI_DOUBLE": {
+      "address": "0x08078934",
+      "value": 6.283185307179586,
+      "match": true,
+      "bytes": "18 2d 44 54 fb 21 19 40",
+      "cdd_offset": "0x074934",
+      "other_images_with_same_bytes": []
+    }
+  },
+  "calls": [
+    {
+      "source": "0x08049476",
+      "target": "0x080785BE",
+      "decoded_target": "0x080785BE",
+      "match": true
+    },
+    {
+      "source": "0x0804947A",
+      "target": "0x0807A7A8",
+      "decoded_target": "0x0807A7A8",
+      "match": true
+    },
+    {
+      "source": "0x0807A7C2",
+      "target": "0x08079C32",
+      "decoded_target": "0x08079C32",
+      "match": true
+    },
+    {
+      "source": "0x0807A7E0",
+      "target": "0x08079A60",
+      "decoded_target": "0x08079A60",
+      "match": true
+    },
+    {
+      "source": "0x08078618",
+      "target": "0x08078326",
+      "decoded_target": "0x08078326",
+      "match": true
+    },
+    {
+      "source": "0x0807816C",
+      "target": "0x08077CC8",
+      "decoded_target": "0x08077CC8",
+      "match": true
+    },
+    {
+      "source": "0x080796FA",
+      "target": "0x0807806C",
+      "decoded_target": "0x0807806C",
+      "match": true
+    }
+  ],
+  "sources": {
+    "D878": "AT-D878UVII-PLUS-V3.07.zip::D878UVII_V3.07 FW/D878UVII_V3.07_20250429.CDD",
+    "D578_PRO_AT": "D578UV PRO V1.20  official release 240131.zip::D578UV_V1.20 FW for D578UV PRO/D578UV_1.20(AT)/D578UV_AT_V1.20_20240130.CDD",
+    "D578_PRO_GD": "D578UV PRO V1.20  official release 240131.zip::D578UV_V1.20 FW for D578UV PRO/D578UV_120(GD)/D578UV_GD_V1.20_20240130.CDD",
+    "D578_PLUS_AT": "D578UV PLUS V2.08 official release 240619.zip::D578UVII_V2.08 FW(For D578UV PLUS)/D578UVII_V2.08(AT)/D578UV2_AT_V2.08_20240619.CDD",
+    "D578_PLUS_GD": "D578UV PLUS V2.08 official release 240619.zip::D578UVII_V2.08 FW(For D578UV PLUS)/D578UVII_V2.08(GD)/D578UV2_GD_V2.08_20240619.CDD"
+  },
+  "literal_refs": [
+    {
+      "ldr": "0x08077D18",
+      "literal_addr": "0x08078024",
+      "type": "LDR literal Thumb16"
+    },
+    {
+      "ldr": "0x08077D42",
+      "literal_addr": "0x0807802C",
+      "type": "LDR literal Thumb16"
+    },
+    {
+      "ldr": "0x08077EB6",
+      "literal_addr": "0x08078044",
+      "type": "LDR literal Thumb16"
+    }
+  ]
+}
